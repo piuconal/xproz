@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Print</title>
+    <link href="./output.css" rel="stylesheet"/>
+</head>
+<body class="flex items-center justify-center">
+    <!-- Bill -->
+    <div class="relative w-[771px] h-[880px] border-[1px] border-black my-[5px]">
+        <!-- Logo-content -->
+        <div class="flex mt-[12px] w-full h-[71px]">
+            <!-- logo -->
+            <img class="w-[155px] h-[70px] ml-[10px]" src="img/xproz.png" alt="logo-xproz">
+            <!-- name-content -->
+            <div class="w-[300px] flex items-center text-[17px] flex-col ml-[40px] mt-[-2px]">
+                <b>HÓA ĐƠN GIÁ TRỊ GIA TĂNG</b>
+                <p class="text-[14px]">Bản thể hiện của hóa đơn điện tử</p>
+                <p class="text-[14px]">Ngày 23 tháng 10 năm 2023</p>
+            </div>
+            <!-- number -->
+            <div class="w-[130px] ml-[48px] mt-[9px]">
+                <p>Kí hiệu: <b>1C23TXP</b></p>
+                <p>Số: <b class="text-[#da1717dd] text-[18px]">0000009</b></p>
+            </div>
+        </div>
+        <!-- end-content -->
+        <p class="text-[14px] ml-[1px]">Mã cơ quan thuế cấp: 004923BBAD579D4FF2BC5C8AC7A4D64B1F</p>
+        <!-- line -->
+        <div class="w-full h-[1px] bg-black mt-[5px] mb-[6px]"></div>
+
+        <!-- unit -->
+        <div class="flex text-[14px] gap-[3px] ml-[5px] mb-[3px]">
+            <b>Đơn vị bán hàng:</b>
+            <p>CÔNG TY CỔ PHẦN XPROZ TECHNOLOGIES</p>
+        </div>
+        <!-- tax-code  -->
+        <div class="flex text-[14px] gap-[3px] ml-[5px] mb-[3px]">
+            <b>Mã số thuế:</b>
+            <p>0109261916</p>
+        </div>
+        <!-- address -->
+        <div class="flex text-[14px] gap-[3px] ml-[5px] mb-[3px]">
+            <b>Địa chỉ:</b>
+            <p>Số 31, Ngõ 57 Mễ Trì Hạ, Phường Mễ Trì, Quận Nam Từ Liêm, Hà Nội, Việt Nam</p>
+        </div>
+        <!-- phone/mail -->
+        <div class="flex gap-[210px]">
+            <div class="flex text-[14px] gap-[3px] ml-[5px] mb-[3px]">
+                <b>Điện thoại:</b>
+                <p>03691363138</p>
+            </div>
+            <div class="flex text-[14px] gap-[3px] ml-[5px] mb-[3px]">
+                <b>Email:</b>
+                <p>contact@xproz.com</p>
+            </div>
+        </div>
+        <!-- acc-id -->
+        <div class="flex text-[14px] gap-[3px] ml-[5px] mb-[3px]">
+            <b>Số tài khoản:</b>
+            <p>1212388888 Ngân hàng thương mại cổ phần Á Châu</p>
+        </div>
+        <!-- line -->
+        <div class="w-full h-[1px] bg-black mt-[5px] mb-[6px]"></div>
+        <b class="text-[14px] ml-[5px]">Họ tên người mua hàng:</b>
+        <!-- username -->
+        <div class="flex text-[14px] gap-[3px] ml-[5px] mb-[3px]">
+            <b>Tên đơn vị:</b>
+            <p>CÔNG TY CỔ PHẦN SAVVYCOM</p>
+        </div>
+        <!-- address -->
+        <div class="flex text-[14px] gap-[3px] ml-[5px] mb-[3px]">
+            <b>Địa chỉ:</b>
+            <p>Tầng 7, tháp B Skypark, số 3 Tôn Thất Thuyết, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Thành Phố Hà Nội, Việt Nam</p>
+        </div>
+        <!-- tax-code -->
+        <div class="flex text-[14px] gap-[3px] ml-[5px] mb-[3px]">
+            <b>Mã số thuế:</b>
+            <p>0104302936</p>
+        </div>
+        <!-- pay  -->
+        <div class="flex gap-[70px]">
+            <div class="flex text-[14px] gap-[3px] ml-[5px] mb-[3px]">
+                <b>Hình thức thanh toán:</b>
+                <p>Tiền mặt/Chuyển khoản</p>
+            </div>
+            <div class="flex text-[14px] gap-[3px] ml-[5px] mb-[3px]">
+                <b>Số tài khoản:</b>
+            </div>
+        </div>
+
+        <!-- table -->
+        <table class=" mt-[2px] w-[770px] text-[14px]">
+            <thead>
+                <tr>
+                    <th class="border-l-0 border-t-[1px] border-black w-[32px]">STT</th>
+                    <th class="border border-black w-[270px]">Tên hàng hóa, dịch vụ</th>
+                    <th class="border border-black w-[100px]">Đơn vị tính</th>
+                    <th class="border border-black w-[70px]">Số lượng</th>
+                    <th class="border border-black">Đơn giá</th>
+                    <th class="border-r-0 border-t-[1px] border-black">Thành tiền</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="border-l-0 border-t-[1px] border-black text-center">(1)</td>
+                    <td class="border border-black text-center">(2)</td>
+                    <td class="border border-black text-center">(3)</td>
+                    <td class="border border-black text-center">(4)</td>
+                    <td class="border border-black text-center">(5)</td>
+                    <td class="border-r-0 border-y-[1px] border-black text-center">(6) = (4) x (5)</td>
+                </tr>
+                <tr>
+                    <td class="border-l-0 border-t-[1px] border-black text-center">1</td>
+                    <td class="border-b-0 border-l-[1px] border-black pl-[5px]">Thanh toán chi phí phát triển phần mềm đợt 2 theo HĐ số SC-XPROZ-2023-003- FC ký ngày 01/08/2023</td>
+                    <td class="border-b-0 border-l-[1px] border-black text-center">Gói</td>
+                    <td class="border-b-0 border-l-[1px] border-black text-center">1</td>
+                    <td class="border-b-0 border-l-[1px] border-black text-right">3.812.362</td>
+                    <td class="border-r-0 border-l-[1px] border-black text-right">3.812.362</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- table -->
+        <table class=" w-[770px] text-[14px]">
+            <tbody>
+                <tr>
+                    <td class="border-l-0 border-t-[1px] border-black text-right w-[600px]">Cộng tiền hàng:</td>
+                    <td class="border-r-0 border-l-[1px] border-t-[1px] border-black text-right">3.812.362</td>
+                </tr>
+                <tr>
+                    <td class="border-l-0 border-t-[1px] border-black text-center">
+                        <div class="flex justify-between">
+                            <p>Thuế suất GTGT:/</p>
+                            <p>Tiền thuế GTGT:</p>
+                        </div>
+                    </td>
+                    <td class="border-r-0 border-l-[1px] border-t-[1px] border-black pl-[5px] text-right">/</td>
+                </tr>
+                <tr>
+                    <td class="border-l-0 border-y-[1px] border-black text-right w-[599.5px]">
+                        <b>
+                            Tổng cộng tiền thanh toán:
+                        </b>
+                    </td>
+                    <td class="border-r-0 border-l-[1px] border-y-[1px] border-black text-right">
+                        <b>
+                            3.812.362
+                        </b>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- text-money -->
+        <p class="text-[14px] ml-[1px] mt-[3px]">Số tiền viết bằng chữ: <i>Ba triệu tám trăm mười hai nghìn ba trăm sáu mươi hai đồng.</i></p>
+        <!-- line -->
+        <div class="w-full h-[1px] bg-black mt-[25px] mb-[6px]"></div>
+
+        <!-- person -->
+        <div class="flex justify-around h-[193px]">
+            <div class="flex flex-col text-[14px] w-[200px] text-center">
+                <b>Người mua hàng</b>
+                <i>(Ký, ghi rõ họ tên)</i>
+            </div>
+            <div class="flex flex-col text-[14px] w-[300px] text-center items-center">
+                <b>Người bán hàng</b>
+                <i>(Ký, ghi rõ họ tên)</i>
+                <div class="relative mt-[20px] w-[210px] h-[100px] px-[10px] border-red-400 border-[1.7px] text-[11px] flex flex-col text-left gap-[3px] justify-center">
+                    <b class="text-red-500">Signature valid</b>
+                    <b class="text-red-500">Được ký bởi:CÔNG TY CỔ PHẦN</b>
+                    <b class="text-red-500">XPROZ TECHNOLOGIES</b>
+                    <b class="text-red-500">Ngày ký: <i class="font-medium">23/10/2023</i></b>
+                    <b class="text-green-500 text-[55px] absolute left-[110px] top-[-2px] opacity-70">✓</b>
+                </div>
+            </div>
+        </div>
+
+        <!-- check -->
+        <p class="text-[12px] text-center">(Cần kiểm tra đối chiếu khi lập, giao, nhận hóa đơn)</p>
+        <!-- line -->
+        <div class="w-full h-[1px] border border-dashed border-black mt-[5px] mb-[6px]"></div>
+        <!-- end -->
+        <div class="flex flex-col items-center gap-[5px] text-[12px]">
+            <p>Tra cứu hóa đơn điện tử tại trang web: https://tracuu.cyberbill.vn Mã số tra cứu:28EM2VU6R2GG</p>
+            <p>Đơn vị cung cấp dịch vụ hóa đơn điện tử: CÔNG TY CỔ PHẦN CYBERLOTUS, MST: 0105232093</p>
+        </div>
+        <img class="absolute top-[200px] left-[130px] w-[500px] h-[500px] opacity-10 " src="img/OIP.png" alt="">
+        <img class="absolute top-[440px] left-[130px] w-[500px] h-[200px] opacity-40 " src="img/xproz.png" alt="">
+    </div>
+</body>
+</html>
